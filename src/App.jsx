@@ -3,6 +3,7 @@
 import React from "react";
 import Profil from "./components/Profile"; // Impor komponen Profil
 import Skills from "./components/Skills"; // Impor komponen Skills
+import Experiences from "./components/Experiences"; // Impor komponen Experiences
 
 function App() {
   return (
@@ -14,6 +15,10 @@ function App() {
       <div className="Skil">
         {/* Tampilkan komponen Skills */}
         <Skills />
+      </div>
+      <div>
+        {/* Tampilkan komponen Experiences */}
+        <Experiences />
       </div>
     </div>
   );
