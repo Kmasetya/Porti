@@ -25,7 +25,7 @@ const Experiences = () => {
             {data.experiences[0].organization}
           </p>
           <div className="flex items-center gap-2 mb-4">
-            <div className="flex items-center text-gray-500 text-sm">
+            <div className="flex items-center text-gray-500 text-sm gap-1.5">
               <svg
                 className="w-4 h-4 mr-2"
                 fill="none"
@@ -40,7 +40,24 @@ const Experiences = () => {
                 />
               </svg>
               {data.experiences[0].start_date} - {data.experiences[0].end_date}
+              <span className="bg-blue-50 text-blue-600 text-xs px-2 py-0.5 rounded-3xl border border-blue-200 font-medium">
+                Current
+              </span>
             </div>
+          </div>
+          <p className="text-gray-700 mb-4 leading-relaxed">
+            {data.experiences[0].description}
+          </p>
+          <div className="flex flex-wrap justify-center md:justify-start gap-2 mb-4 text-sm font-medium">
+            <span className="bg-gray-300 px-4 py-1.5 rounded-full backdrop-blur-sm">
+              Figma
+            </span>
+            <span className="bg-gray-300 px-4 py-1.5 rounded-full backdrop-blur-sm">
+              Html
+            </span>
+            <span className="bg-gray-300 px-4 py-1.5 rounded-full backdrop-blur-sm">
+              Css
+            </span>
           </div>
         </div>
       </div>
