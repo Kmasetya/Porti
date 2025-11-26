@@ -21,8 +21,9 @@
       "category": "technical",
       "level": "advanced",
       "is_main": true,
-      "years_of_experience": 2,
-      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+      "years_of_experience": "2 years of experience",
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "percentage": 100
     },
     {
       "id": 2,
@@ -30,8 +31,9 @@
       "category": "technical",
       "level": "intermediate",
       "is_main": true,
-      "years_of_experience": 1,
-      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+      "years_of_experience": "1 years of experience",
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg",
+      "percentage": 70
     },
     {
       "id": 3,
@@ -39,7 +41,8 @@
       "category": "technical",
       "level": "intermediate",
       "is_main": false,
-      "icon_url": "https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp"
+      "icon_url": "https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp",
+      "percentage": 80
     }
   ],
 
