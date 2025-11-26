@@ -7,7 +7,7 @@ const Experiences = () => {
       <h2 className="text-2xl font-bold text-gray-800 mb-6"> Experiences</h2>
       <div className="flex items-start mb-6">
         <div className="w-15 h-15 flex-shrink-0 mr-4">
-          <div className="w-full h-full bg-gray-100 rounded-full flex items-center justify-center border border-gray-100">
+          <div className="w-full h-full bg-gray-100   rounded-full flex items-center justify-center border border-gray-100">
             <img
               src={data.skills[0].icon_url}
               alt=""
